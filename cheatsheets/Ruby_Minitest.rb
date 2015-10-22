@@ -1,7 +1,7 @@
 cheatsheet do
   title 'Minitest Reference'
-  docset_file_name 'Minitest'
-  keyword 'minitest'
+  docset_file_name 'Ruby_Minitest'
+  keyword 'minitest ruby'
   source_url 'http://cheat.kapeli.com'
 
   introduction <<-MD
@@ -9,7 +9,7 @@ cheatsheet do
   MD
   
   category do
-    id 'Minitest::Assertions'
+    id 'Minitest :: Assertions'
 
     entry do
       name 'Introduction'
@@ -423,7 +423,7 @@ cheatsheet do
   end
 
   category do
-    id 'Minitest::Expectations'
+    id 'Minitest :: Expectations (spec syntax)'
 
     entry do
       name 'Introduction'
@@ -912,7 +912,7 @@ cheatsheet do
   
   
   category do
-    id "Mocks"
+    id "Minitest :: Mocks"
     
     entry do
       notes <<-MD
@@ -957,7 +957,7 @@ cheatsheet do
   end #/category
    
   category do
-    id 'Stubs'
+    id 'Minitest :: Stubs'
     
     entry do
       
@@ -996,7 +996,7 @@ cheatsheet do
     
   
   category do
-    id 'Running Your Tests'
+    id 'Minitest :: Running Your Tests'
     
     entry do
         notes <<-MD
